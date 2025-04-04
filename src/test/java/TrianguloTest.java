@@ -40,5 +40,28 @@ public class TrianguloTest {
         assertEquals("Não forma um triângulo", Triangulo.classificarTriangulo(5, 1, 2));
         assertEquals("Não forma um triângulo", Triangulo.classificarTriangulo(2, 5, 1));
     }
-    
+
+    // Caso de teste com os três valores iguais a zero
+    @Test
+    public void testValoresZero() {
+        assertEquals("Valores inválidos", Triangulo.classificarTriangulo(0, 0, 0));
+    }
+
+
+    // Caso de teste para um valor zero
+    @Test
+    public void testValorZero() {
+        assertEquals("Valores inválidos", Triangulo.classificarTriangulo(0, 4, 5));
+        assertEquals("Valores inválidos", Triangulo.classificarTriangulo(4, 0, 5));
+        assertEquals("Valores inválidos", Triangulo.classificarTriangulo(4, 5, 0));
+    }
+
+    // Caso de teste para valor negativo
+    @Test
+    public void testValorNegativo() {
+        assertEquals("Valores inválidos", Triangulo.classificarTriangulo(-1, 4, 5));
+        assertEquals("Valores inválidos", Triangulo.classificarTriangulo(4, -1, 5));
+        assertEquals("Valores inválidos", Triangulo.classificarTriangulo(4, 5, -1));
+    }
+
 }
