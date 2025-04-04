@@ -57,6 +57,7 @@ public class TrianguloTest {
     }
 
     // Caso de teste para valor negativo
+
     @Test
     public void testValorNegativo() {
         assertEquals("Valores inválidos", Triangulo.classificarTriangulo(-1, 4, 5));
