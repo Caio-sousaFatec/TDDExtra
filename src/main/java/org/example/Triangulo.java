@@ -1,3 +1,5 @@
+package org.example;
+
 public class Triangulo {
 
     public static String classificarTriangulo(int lado1, int lado2, int lado3) {
