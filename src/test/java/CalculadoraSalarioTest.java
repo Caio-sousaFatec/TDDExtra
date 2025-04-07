@@ -1,7 +1,7 @@
 
-import org.example.CalculadoraSalario;
-import org.example.Cargo;
-import org.example.Funcionario;
+import org.exercicio3.CalculadoraSalario;
+import org.exercicio3.Cargo;
+import org.exercicio3.Funcionario;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

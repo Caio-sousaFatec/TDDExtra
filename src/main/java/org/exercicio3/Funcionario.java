@@ -1,4 +1,4 @@
-package org.example;
+package org.exercicio3;
 
 
 public class Funcionario {

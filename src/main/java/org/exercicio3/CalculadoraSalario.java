@@ -1,4 +1,4 @@
-package org.example;
+package org.exercicio3;
 
 public class CalculadoraSalario {
     public double calcularSalarioLiquido(Funcionario funcionario) {

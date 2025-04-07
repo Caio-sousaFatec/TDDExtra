@@ -1,4 +1,6 @@
-package org.example;
+package org;
+
+import org.exercicio1.Triangulo;
 
 import java.util.Scanner;
 public class Main {

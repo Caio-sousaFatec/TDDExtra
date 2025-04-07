@@ -1,4 +1,4 @@
-import org.example.Triangulo;
+import org.exercicio1.Triangulo;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

@@ -1,4 +1,6 @@
-package org.example;
+package org.exercicio2;
+
+import org.exercicio3.Email;
 
 import java.util.List;
 

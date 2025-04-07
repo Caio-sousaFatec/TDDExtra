@@ -1,6 +1,6 @@
-import org.example.Email;
-import org.example.Person;
-import org.example.PersonDAO;
+import org.exercicio3.Email;
+import org.exercicio2.Person;
+import org.exercicio2.PersonDAO;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 import java.util.List;

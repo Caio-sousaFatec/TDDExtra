@@ -1,4 +1,4 @@
-package org.example;
+package org.exercicio1;
 
 public class Triangulo {
 
