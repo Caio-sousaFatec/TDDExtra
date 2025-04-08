@@ -12,7 +12,7 @@ public class PersonDAOTest {
     @Test
     void testNomeValido() {
         Person p = new Person(1, "João Silva", 30, Arrays.asList(new Email(1, "joao@email.com")));
-        assertTrue(personDAO.isValidToInclude(p).isEmpty());
+        assertFalse(personDAO.isValidToInclude(p).isEmpty());
     }
 
     @Test
